@@ -11,16 +11,11 @@ import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
 
-  @BindView(R.id.tv_greeting)
-  TextView mTvGreeting;
-  @BindView(R.id.rv_ingredients)
-  RecyclerView mRvIngredients;
-  @BindView(R.id.tv_empty_prompt)
-  TextView mTvEmptyPrompt;
-  @BindView(R.id.btn_add_item)
-  FloatingActionButton mBtnAddItem;
-  @BindView(R.id.rv_recipes)
-  RecyclerView mRvRecipes;
+  @BindView(R.id.tv_greeting) TextView mTvGreeting;
+  @BindView(R.id.rv_ingredients) RecyclerView mRvIngredients;
+  @BindView(R.id.tv_empty_prompt) TextView mTvEmptyPrompt;
+  @BindView(R.id.btn_add_item) FloatingActionButton mBtnAddItem;
+  @BindView(R.id.rv_recipes) RecyclerView mRvRecipes;
 
   private RecipesListAdapter mRecipesListAdapter;
 
