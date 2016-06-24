@@ -11,6 +11,8 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
+  private static final Lawg lawg = Lawg.newInstance(MainActivity.class.getSimpleName());
+
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
